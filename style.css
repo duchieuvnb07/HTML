@@ -1,26 +1,293 @@
-body{
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+div{
+    display: block;
+}
+.timkiem{
+    text-align: right;
+    padding-right: 280px;
+    background-color: #f4f4f4;
+    
+}
+header{
     text-align: center;
-    font-variant: small-caps;
-    font-size: 20px;
-    word-spacing: 2px;
-    letter-spacing: 2px;
-    line-height: 25px;
 }
-h2{
+a{
     color: white;
-    text-shadow: 0 0 5px red;
+    text-decoration: none;
 }
-.doan1{
+a:hover{
+    color: darkblue;
+}
+nav{
+    color: white;
+    background-color: #009600;
+    font-variant: small-caps;
+    line-height: 15px;
+    height: 46px;
+    text-align: left ;
+    padding-left: 235px;
+    padding-top: 10px;
+}
+.menu{
+    font-size: 11px;
 
-    color: red;
 }
-.doan2{
-    color: blue;
+.menu>ul{
+    background: #009600;
+    margin: 0%;
+    padding: 0%;
+}
+.menu>ul>span>li {
+    padding-left: 11px;
+    display: inline-block;
+    
+}
+.menu ul li{
+    padding-left: 11px;
+    position: relative;
+}
+.menu .menuchinh{
+    line-height: normal;
+}
+.iconhome img{
+    padding-top: 5px;
+}
+.menu .iconhome a{
+    margin: 10px;
+    padding: 0px 2px;
+}
+.chuchay{
+background-color: #f0f4f5;
+padding-left: 400px;
+padding-right: 350px;
+color: #009600;
+}
+.hotline-footer{
+    position: fixed;
+    bottom: 30px;
+    background: #00afef;
+    padding: 7px 10px;
+    border-radius: 38px;
+    color: #fff;
+}
+.hotline-footer_right{
+    right: 65px !important;
+}
+.hotline-footer .hot-phone a{
+    color: #fff;
+    vertical-align: middle;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.hotline-footer .hot-phone{
+    position: relative;
+}
+.hotline-footer .hot-phone img{
+    width: 45px;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+.hotline-footer .hot-phone .number-phone{
+    vertical-align: middle;
+
+}
+.inline-block{
+    display: inline-block !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.pr-3{
+    padding-right: 1rem !important
+}
+.infoFooter{
+float: left;
+padding-bottom: 15px;
+padding-top: 15px;
+background-color: #009600 ;
+color: #fff;
+width: 100%;
+padding-left: 270px;
+
+}
+.tin1{
+    display: block;
+    float: right;
+    border: 3px double red;
+}
+.tin{
+     display: flex;
+     float: left;
+
+}
+.tinmoi h4{
+    text-align: center;
+    font-size: 20px;
+    color: #009600;
+}
+.tinmoi{
+    margin: 22px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px black;
+}
+.tinmoi p{
+    padding: 0 5px;
+}
+.khunganh img{
+    margin-left: 210px;
+    margin-top: 20px;
+    box-shadow: 0 0 8px black;
+    margin-bottom: 10px;
+}
+.khunganh .anhgioithieu{
+    padding-left: 150px;
+}
+.tieude h4{
+    background: #ececec;
+    padding-left: 370px;
+    font-variant: small-caps;
+    color: #009600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.tieude2 h4{
+    background: #ececec;
+    padding-left: 370px;
+    font-variant: small-caps;
+    color: #009600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
 }
 
-.doan3{
-    color: green;
+.bangtb tr td:hover{
+    color: darkblue;
 }
-strong{
-    color: brown;
+.tintuc{
+    box-shadow: 0 0 5px black;
 }
+.anhtintucsukien h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    background: #009600;
+    margin-bottom: 10px;
+    width: 980px;
+    margin-left: 280px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 70px;
+    border: 1px solid black;
+    text-decoration: underline;
+
+}
+.anhthem{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.tin2 {
+    text-align: center;
+    color: #009600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: larger;
+    text-decoration: underline;
+}
+.hoatdong{
+    box-shadow: 0 0 5px black;
+}
+.anhhoatdongchuyenmon h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    background: #009600;
+    margin-bottom: 10px;
+    width: 980px;
+    margin-left: 280px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 70px;
+    border: 1px solid black;
+    text-decoration: underline;
+}
+.than{
+    width: 800px;
+    float: left;
+    margin: 0 170px;
+    background: rgb(228, 223, 218);
+}
+.than h3{
+    font-size: 30px;
+    padding: 15px 20px;
+}
+.noidung{
+    font-size: 20px;
+    padding: 0 20px;
+}
+.noidung1{
+    font-size: 20px;
+    padding: 0 20px;
+}
+.chude option{
+    font-size: 20px;
+}
+.than1{
+    display: flex;
+    float: right;
+    margin: 100px 170px;
+    background: rgb(228, 223, 218);
+}
+a.than1side input{
+    font-size: 10px;
+    margin: 5px 15px;
+    box-shadow: 0 0 5px red;
+    border: none;
+   
+}
+.guiphanhoi h3{
+    font-size: 25px;
+    display:block ;
+}
+.chude{
+    font-size: 20px;
+}
+.than{
+    width: 800px;
+  display: block;
+    margin: 0 170px;
+    background: rgb(228, 223, 218);
+    
+}
+article h3{
+    font-size: 30px;
+    padding: 15px 20px;
+}
+.noidung{
+    font-size: 30px;
+    padding: 0 20px;
+}
+.noidung1{ 
+    font-size: 20px;
+    padding: 0 20px;
+}
+.chude option{
+    font-size: 20px;
+}
+
+
+
+
+
